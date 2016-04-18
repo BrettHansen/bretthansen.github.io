@@ -1,14 +1,87 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Brett Hansen's Projects</title>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-	<a href="http://bretthansen.github.io/custom_layers_example/">Polling Fraud</a><br>
-	<a href="http://bretthansen.github.io/EulerLine/">Euler Line</a><br>
-	<a href="http://bretthansen.github.io/Gravity/">Gravity Simulation</a><br>
-	<a href="http://bretthansen.github.io/Tupper/">Tupper's Self Refential Formula</a><br>
+    <title>Brett Hansen's Projects</title>
 
-</body>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link href="stylesheet.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+<!--         <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div> -->
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://www.github.com/bretthansen">Github</a></li>
+            <li><a href="http://www.linkedin.com/in/brettjhansen">LinkedIn</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h3>Brett Hansen's Projects</h3>
+        <p>I am currently an undergraduate student at Arizona State University studying computer science, mathematics, and economics. You can checkout some of my projects below.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Maricopa Polling</h2>
+          <p>The reduced number and questionable placement of polling locations during the latest Presedential Preference election in Maricopa County elicited accusations of election fraud and voter disenfranchisement, especially in poorer and minority-majority communites. This map shows polling locations for the past three Presedential Preference elections as well as block level race statistics.</p>
+          <p><a class="btn btn-default" href="http://bretthansen.github.io/MaricopaPolling" role="button">View Demo &raquo;</a>
+          <a class="btn btn-default" href="https://github.com/bretthansen/MaricopaPolling" role="button">View Code &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Euler Line</h2>
+          <p>There are many ways of measuring the center of a triangle. This interactive javascript canvas shows that at least three of them&mdash;centroid, orthocenter, circumcenter&mdash;lie along a line coined the Euler Line.</p>
+          <p><a class="btn btn-default" href="http://bretthansen.github.io/EulerLine" role="button">View Demo &raquo;</a>
+          <a class="btn btn-default" href="https://github.com/bretthansen/EulerLine" role="button">View Code &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Tupper's Self-Referential Formula</h2>
+          <p>A function that graphs itself, what could be more fun&#8253; This interactive javascript canvas not only shows the famous function, but also allows you to create your own images and find their corresponding k-values.</p>
+          <p><a class="btn btn-default" href="http://bretthansen.github.io/Tupper" role="button">View Demo &raquo;</a>
+          <a class="btn btn-default" href="https://github.com/bretthansen/Tupper" role="button">View Code &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2016 Brett Hansen</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
